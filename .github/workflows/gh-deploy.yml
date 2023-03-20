@@ -33,4 +33,4 @@ jobs:
       - name: Deploy Docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env: 
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
